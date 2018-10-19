@@ -1,5 +1,5 @@
 #include <Adafruit_NeoPixel.h>
-const int RGB = 4;
+const int RGB = 4;// signal is on digital pin 4
 int i = 0;
 int j = 0;
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(10, RGB);
