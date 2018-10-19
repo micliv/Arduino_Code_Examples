@@ -2,7 +2,7 @@
 const int RGB = 4;// signal is on digital pin 4
 int i = 0;
 int j = 0;
-Adafruit_NeoPixel strip = Adafruit_NeoPixel(10, RGB);
+Adafruit_NeoPixel strip = Adafruit_NeoPixel(10, RGB);// the first value is the number of led's in the strip.
 void setup() 
 {
 strip.begin();
